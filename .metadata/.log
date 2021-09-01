@@ -1,0 +1,3977 @@
+!SESSION 2021-08-30 10:39:00.190 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-30 10:39:34.490
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-30 10:39:34.490
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33837bd4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61c145cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-30 10:39:48.652
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\2039224'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-30 10:41:12.713
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:41:15.829
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:42:06.994
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:42:07.006
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:42:07.016
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:42:52.535
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:44:08.106
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:44:08.198
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:44:08.627
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:44:08.651
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:15.813
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:15.826
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6052ef81[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:15.876
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-08-30 10:45:16.023
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:45:16.036
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:45:16.051
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:45:16.161
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:16.661
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-30 10:45:19.913
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:45:21.028
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:45:21.621
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:45:23.300
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.460
+!MESSAGE Boot LS startup time from start to initialized: 10529ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.711
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DyWZbqNhisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.733
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.751
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.766
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.782
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.811
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DyWZbqNh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.919
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.953
+!MESSAGE buffering callback sts4.classpath.DyWZbqNh flights-service false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:26.967
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.017
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.045
+!MESSAGE buffering callback sts4.classpath.DyWZbqNh Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.171
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.206
+!MESSAGE buffering callback sts4.classpath.DyWZbqNh ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.220
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.267
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.308
+!MESSAGE buffering callback sts4.classpath.DyWZbqNh booking-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:27.334
+!MESSAGE executing callback sts4.classpath.DyWZbqNh 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:45:28.493
+!MESSAGE executing callback sts4.classpath.DyWZbqNh SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 10:48:20.265
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:20.280
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:20.313
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:20.336
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:54.223
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:48:54.236
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-30 10:48:54.258
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:54.283
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:54.472
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:48:54.492
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:48:54.589
+!MESSAGE buffering callback sts4.classpath.DyWZbqNh flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:48:54.609
+!MESSAGE executing callback sts4.classpath.DyWZbqNh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:48:55.209
+!MESSAGE executing callback sts4.classpath.DyWZbqNh SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 10:48:57.661
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:58.164
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:58.312
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:58.445
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:58.684
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:59.412
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:59.897
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:59.909
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:59.920
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:48:59.937
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:01.164
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:01.174
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:01.185
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:01.196
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:17.936
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:49:17.949
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-30 10:49:17.966
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:17.983
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:17.999
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:49:18.026
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:49:18.143
+!MESSAGE buffering callback sts4.classpath.DyWZbqNh flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:49:18.187
+!MESSAGE executing callback sts4.classpath.DyWZbqNh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:49:18.565
+!MESSAGE executing callback sts4.classpath.DyWZbqNh SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 10:49:21.139
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:22.041
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:22.167
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:22.383
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:22.557
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:22.608
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:22.848
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:25.767
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:25.776
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:25.790
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:49:26.356
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:03.048
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:03.064
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:03.081
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:03.096
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:04.228
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:04.239
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:04.724
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:06.322
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:42.457
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:42.477
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:42.497
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:42.513
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:43.753
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:43.903
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:44.527
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:50:46.082
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:05.958
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:05.982
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:06.004
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:06.027
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:09.758
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:09.781
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:09.799
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:51:11.170
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:25.749
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DyWZbqNh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:25.770
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DyWZbqNh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:25.785
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:25.801
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DyWZbqNh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:27.581
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:27.591
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6052ef81[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:27.602
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 10:51:30.738
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:32.701
+!MESSAGE Boot LS startup time from start to initialized: 5082ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:32.926
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LZiklqByisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:32.950
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:32.968
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:32.988
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.001
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.013
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LZiklqBy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.127
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.160
+!MESSAGE buffering callback sts4.classpath.LZiklqBy flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.172
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.222
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.243
+!MESSAGE buffering callback sts4.classpath.LZiklqBy Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.256
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.341
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.372
+!MESSAGE buffering callback sts4.classpath.LZiklqBy ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.412
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.441
+!MESSAGE buffering callback sts4.classpath.LZiklqBy booking-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:33.451
+!MESSAGE executing callback sts4.classpath.LZiklqBy 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:51:34.632
+!MESSAGE executing callback sts4.classpath.LZiklqBy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:55:06.878
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LZiklqBy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:55:06.890
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LZiklqBy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:55:06.904
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:55:06.916
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LZiklqBy => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-30 10:55:24.441
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:94)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-30 10:55:44.992
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:55:45.007
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:55:45.023
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:55:45.043
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:21.839
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:21.850
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:21.867
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:21.885
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:23.747
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:24.297
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:24.512
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:24.832
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:24.977
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:27.755
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:27.769
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:27.785
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:27.805
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:29.385
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:29.397
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:29.414
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:29.432
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:31.229
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:31.240
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:31.253
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:31.266
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:41.810
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:41.826
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:41.843
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:41.860
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:42.355
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:42.385
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6052ef81[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:42.407
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-08-30 10:56:45.347
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:45.413
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:45.446
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:45.459
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:46.718
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:46.768
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:46.954
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:56:47.007
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.529
+!MESSAGE Boot LS startup time from start to initialized: 7105ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.689
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yyzsRpXFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.703
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.726
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.757
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.786
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yyzsRpXF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.813
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.844
+!MESSAGE buffering callback sts4.classpath.yyzsRpXF flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.856
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.894
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.920
+!MESSAGE buffering callback sts4.classpath.yyzsRpXF Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:49.930
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:50.015
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:50.043
+!MESSAGE buffering callback sts4.classpath.yyzsRpXF ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:50.053
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:50.081
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:50.107
+!MESSAGE buffering callback sts4.classpath.yyzsRpXF booking-service false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:50.118
+!MESSAGE executing callback sts4.classpath.yyzsRpXF 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:56:51.213
+!MESSAGE executing callback sts4.classpath.yyzsRpXF SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 10:57:06.464
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:06.483
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:06.499
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:06.513
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:09.324
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:09.337
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:09.353
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:09.823
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:17.167
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:17.180
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:17.190
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:17.199
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:19.698
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:19.711
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:19.729
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 10:57:20.252
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 10:57:20.733
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:35.634
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:35.648
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:35.662
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:35.676
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:38.526
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:38.541
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:38.555
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:57:39.342
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:26.742
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:26.762
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:26.780
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:26.798
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:29.002
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:29.019
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:29.047
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 10:58:30.001
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:34.288
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yyzsRpXF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:34.299
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yyzsRpXF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:34.309
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:34.322
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yyzsRpXF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:44.710
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:44.718
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6052ef81[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:44.727
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-30 10:58:45.723
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:553)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:542)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:871)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:361)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1694)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:456)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3079)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1521)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:786)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:400)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1260)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-30 10:58:46.736
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:553)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:542)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:871)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:379)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1715)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:378)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:41)
+	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:73)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:456)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3079)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1521)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:786)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:400)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1260)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-30 10:58:47.750
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:553)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:542)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:871)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:361)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1694)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:362)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:588)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:60)
+	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:88)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:189)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:195)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:140)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:129)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1313)
+	at org.eclipse.jface.text.source.SourceViewer.ensureCodeMiningManagerInstalled(SourceViewer.java:1301)
+	at org.eclipse.jface.text.source.SourceViewer.setCodeMiningAnnotationPainter(SourceViewer.java:1320)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.showAnnotations(SourceViewerDecorationSupport.java:830)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.updateTextDecorations(SourceViewerDecorationSupport.java:301)
+	at org.eclipse.ui.texteditor.SourceViewerDecorationSupport.install(SourceViewerDecorationSupport.java:269)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:456)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.createPartControl(JavaEditor.java:3079)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.createPartControl(CompilationUnitEditor.java:1521)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:786)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:400)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1260)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3195)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.620
+!MESSAGE Boot LS startup time from start to initialized: 3878ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.752
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LjgeqmQCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.761
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.772
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.790
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.810
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.824
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LjgeqmQC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.840
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.866
+!MESSAGE buffering callback sts4.classpath.LjgeqmQC booking-service false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.877
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.899
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.918
+!MESSAGE buffering callback sts4.classpath.LjgeqmQC Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.926
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.962
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:48.996
+!MESSAGE buffering callback sts4.classpath.LjgeqmQC ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:49.005
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:49.034
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:49.064
+!MESSAGE buffering callback sts4.classpath.LjgeqmQC flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:49.074
+!MESSAGE executing callback sts4.classpath.LjgeqmQC 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 10:58:50.241
+!MESSAGE executing callback sts4.classpath.LjgeqmQC SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 11:01:12.516
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:12.549
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:12.565
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:12.581
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:15.789
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:15.803
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:15.817
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:01:15.982
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-30 11:03:12.557
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-30 11:13:21.092
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:21.114
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:21.131
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:21.150
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:25.538
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:25.556
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:25.608
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:25.664
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-30 11:13:42.244
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2021-08-30 11:13:57.760
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:57.775
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:57.797
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 11:13:57.816
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:14:01.069
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:14:01.085
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:14:01.099
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:14:01.854
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 11:37:15.097
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 11:37:16.153
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:16.168
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:16.182
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:16.195
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:20.762
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:20.779
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:20.792
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:37:21.438
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:28.951
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:28.969
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:28.983
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:29.002
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:31.928
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:31.940
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:31.955
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 11:45:32.766
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:14.420
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:14.462
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:14.498
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:14.532
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:19.497
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:19.522
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:19.623
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:20.287
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:53.295
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:53.309
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:53.332
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:53.347
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:54.635
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:55.021
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:55.280
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:10:56.949
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:43.610
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:43.628
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:43.645
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:43.667
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:47.238
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:47.294
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:48.029
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:15:50.018
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:06.759
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:06.783
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:06.811
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:06.832
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:11.662
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:11.821
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:11.895
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:13.553
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:18.831
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:18.846
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:18.867
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:18.893
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:22.218
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:22.232
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:22.746
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:21:24.443
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:12.794
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:12.817
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:12.839
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:12.859
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:14.655
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:14.683
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:14.822
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:16.650
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:28.078
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:28.103
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:28.125
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:28.141
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:29.601
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:29.806
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:30.246
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:31.808
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:48.647
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:48.661
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:48.677
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:48.700
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:52.039
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:52.083
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:52.103
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:22:53.589
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:21.596
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:21.609
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:21.627
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:21.660
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:23.877
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:23.889
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:24.267
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:28:25.627
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:43.224
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:43.238
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:43.250
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:43.263
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:45.974
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:46.012
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:46.246
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:38:47.938
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:52.119
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:52.147
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:52.163
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:52.179
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:55.068
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:55.085
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:55.106
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:39:55.784
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:17.248
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:17.271
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:17.293
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:17.316
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:18.897
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:19.016
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:19.677
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:41:20.914
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:09.581
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:09.597
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:09.613
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:09.629
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:12.571
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:12.585
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:12.607
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:45:13.373
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:13.000
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:13.017
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:13.035
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:13.051
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:14.575
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:14.613
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:15.428
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:49:16.780
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:28.468
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:28.485
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:28.501
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:28.516
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:32.401
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:32.417
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:32.435
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 12:50:33.483
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:49.153
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:49.170
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:49.188
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:49.207
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:52.879
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:52.895
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:52.913
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:04:53.696
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 13:04:53.947
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 13:04:55.775
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 13:05:02.215
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 13:05:10.908
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 13:06:34.246
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:34.261
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:34.277
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:34.293
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:37.418
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:37.457
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:37.488
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:06:38.277
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:16.118
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:16.130
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:16.144
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:16.156
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:17.370
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:17.470
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:17.831
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:07:19.134
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:35.015
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:35.030
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:35.043
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:35.059
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:38.044
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:38.061
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:38.080
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:18:39.465
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:17.049
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:17.059
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:17.072
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:17.086
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:19.600
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:19.616
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:19.635
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:19:20.664
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:10.858
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:10.882
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:10.898
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:10.914
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:14.279
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:14.290
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:14.305
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:15.201
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 13:26:17.557
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 13:26:48.304
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:48.322
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:48.340
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:48.354
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:50.767
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:50.783
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:50.800
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 13:26:51.817
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:16.068
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:16.088
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:16.103
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:16.119
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:18.893
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:18.912
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:18.938
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:14:19.971
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:56.727
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:56.745
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:56.760
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:56.779
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:58.242
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:58.269
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:15:58.780
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:00.279
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:01.463
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:01.480
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:01.508
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:01.524
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:02.903
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:02.917
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:02.933
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:03.042
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:16.333
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:16.348
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:16.369
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:16.387
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:17.792
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:17.854
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:18.397
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:16:19.870
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 15:22:29.985
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 15:23:34.727
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:34.741
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:34.754
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:34.767
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:39.920
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:39.966
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:39.998
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:41.485
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:56.792
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:56.806
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:56.823
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:56.837
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:59.921
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:59.940
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:23:59.967
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:01.384
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:05.978
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:05.994
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:06.006
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:06.020
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:09.948
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:10.200
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:11.517
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:24:11.614
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:12.624
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:12.638
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:12.650
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:12.667
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:20.373
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:20.386
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:20.401
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:20.419
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:30.185
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:30.200
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:30.217
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:30.251
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:37.374
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:37.410
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:37.427
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:37.452
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:41.494
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:41.508
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:41.524
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:41.546
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:59.554
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:59.567
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:59.579
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:26:59.594
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:32.639
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:27:32.656
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-30 15:27:32.671
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:32.689
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:32.705
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:27:32.738
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:27:32.809
+!MESSAGE buffering callback sts4.classpath.LjgeqmQC flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:27:32.829
+!MESSAGE executing callback sts4.classpath.LjgeqmQC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:27:33.185
+!MESSAGE executing callback sts4.classpath.LjgeqmQC SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 15:27:35.262
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:36.056
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:36.089
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:36.605
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:50.474
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:50.486
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:50.697
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:27:50.726
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 15:34:04.810
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 15:34:21.064
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:21.086
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:21.107
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:21.126
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:24.276
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:24.291
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:24.307
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:34:25.297
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:35:59.372
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:35:59.387
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:35:59.402
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:35:59.417
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:36:00.894
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:36:01.020
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:36:01.421
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:36:02.822
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:38:16.745
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LjgeqmQC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:38:16.756
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LjgeqmQC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:38:16.768
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:38:16.778
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LjgeqmQC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:00.063
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:00.076
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6052ef81[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:00.087
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.192
+!MESSAGE Boot LS startup time from start to initialized: 6075ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.516
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aXXWFdyPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.540
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.557
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.572
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.587
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.604
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aXXWFdyP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.762
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.791
+!MESSAGE buffering callback sts4.classpath.aXXWFdyP flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.803
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.832
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.856
+!MESSAGE buffering callback sts4.classpath.aXXWFdyP Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.867
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:06.992
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:07.019
+!MESSAGE buffering callback sts4.classpath.aXXWFdyP ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:07.029
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:07.069
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:07.108
+!MESSAGE buffering callback sts4.classpath.aXXWFdyP booking-service false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:07.146
+!MESSAGE executing callback sts4.classpath.aXXWFdyP 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:41:08.480
+!MESSAGE executing callback sts4.classpath.aXXWFdyP SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 15:41:47.816
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:47.834
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:47.852
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:47.866
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:51.085
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:51.097
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:51.109
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:41:52.198
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-30 15:43:02.996
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:94)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-30 15:45:16.807
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:16.823
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:16.839
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:16.854
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:46.786
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:45:46.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-30 15:45:46.813
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:46.831
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:46.844
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:45:46.890
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:45:46.935
+!MESSAGE buffering callback sts4.classpath.aXXWFdyP flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:45:46.950
+!MESSAGE executing callback sts4.classpath.aXXWFdyP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:45:47.070
+!MESSAGE executing callback sts4.classpath.aXXWFdyP SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 15:45:49.589
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:49.601
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:49.645
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:45:50.179
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:03.216
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:03.227
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:03.241
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:03.257
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:17.984
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:17.994
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:18.007
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:18.021
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:52.195
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:46:52.206
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-30 15:46:52.218
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:52.229
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:52.242
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:46:52.254
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:46:52.286
+!MESSAGE buffering callback sts4.classpath.aXXWFdyP flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:46:52.303
+!MESSAGE executing callback sts4.classpath.aXXWFdyP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 15:46:52.552
+!MESSAGE executing callback sts4.classpath.aXXWFdyP SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-30 15:46:54.709
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:54.719
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:54.768
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:46:55.837
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:47:10.421
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:47:10.433
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:47:10.444
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:47:10.460
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:06.039
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:06.054
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:06.068
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:06.082
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:09.216
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:09.246
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:09.265
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:51:09.517
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 15:53:38.843
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 15:55:37.368
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:37.383
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:37.397
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:37.412
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:39.742
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:39.757
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:39.773
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:55:41.015
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:03.078
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:03.102
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:03.122
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:03.149
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:04.331
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:04.532
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:05.014
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:56:06.463
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:31.373
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:31.393
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:31.408
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:31.420
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:33.391
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:33.418
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:33.484
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:34.018
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:39.292
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:39.310
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:39.328
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:39.345
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:40.591
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:40.600
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:40.612
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:40.624
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:40.952
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:40.991
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:41.215
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:41.228
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:41.264
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:41.342
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:49.372
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:49.391
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:49.414
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:49.433
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:49.899
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:50.008
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:50.552
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:54.627
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:57.611
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:57.625
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:57.636
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:57.648
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:58.784
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:58.898
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:58.925
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:57:59.240
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:00.491
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:00.515
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:00.529
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:00.545
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:02.621
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:02.635
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:02.651
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:03.766
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:25.945
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:25.958
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:25.975
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:25.993
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:27.157
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:27.320
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:27.782
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:29.060
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:45.239
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:45.277
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:45.293
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:45.309
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:46.535
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:46.817
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:47.185
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 15:59:48.524
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:30.309
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:30.321
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:30.334
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:30.347
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:32.625
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:32.637
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:32.650
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:00:33.555
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:11.290
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:11.304
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:11.321
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:11.333
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:13.540
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:13.559
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:13.575
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:14.467
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:28.969
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:28.981
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:28.996
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:29.009
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:30.115
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:30.237
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:30.597
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:31.877
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:35.504
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:35.518
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:35.540
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:35.555
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:36.795
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:37.220
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:37.992
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:01:38.000
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-30 16:17:00.565
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-30 16:17:00.568
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cea8ef8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40a569b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-30 16:17:02.035
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:02.047
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:02.058
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:02.087
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:05.161
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:05.180
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:05.197
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:05.362
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:07.155
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:07.326
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:07.495
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:07.557
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:08.317
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:08.437
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:08.457
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:08.483
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:11.145
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:11.154
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:11.167
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:11.176
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:20.061
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:20.073
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:20.087
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:20.100
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:22.753
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:22.766
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:22.788
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:22.804
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:31.520
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:31.537
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:31.597
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:31.616
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:33.766
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:33.780
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:33.851
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:17:34.837
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:22.827
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:22.850
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:22.870
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:22.883
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:27.211
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:27.225
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:27.240
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:27.661
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:27.865
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:27.903
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:26:29.188
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:16.082
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:16.098
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:16.130
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:16.145
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:18.529
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:18.539
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:18.550
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:18.883
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:18.899
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:18.916
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:27:19.725
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:38.322
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:38.337
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:38.348
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:38.361
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:40.716
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:40.728
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:40.739
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:41.094
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:41.143
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:41.248
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:28:42.324
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:30.880
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:30.917
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:30.942
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:30.957
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-30 16:31:32.129
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-30 16:31:33.084
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:33.095
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:33.107
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:33.408
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:33.442
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:33.461
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:31:34.402
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:18.651
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:18.668
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:18.684
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:18.696
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:22.200
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:22.214
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:22.424
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:22.917
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:23.117
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:23.131
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:24.389
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:24.482
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:24.501
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:24.887
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:26.010
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:26.048
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:26.110
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:26.466
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:30.154
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:30.172
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:30.187
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:30.206
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:32.793
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:32.807
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:32.833
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:33.534
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:33.572
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:33.585
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:33.598
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:36:34.237
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:26.350
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:26.369
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:26.384
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:26.402
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:28.827
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:28.838
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:28.850
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:29.512
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:29.535
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:29.553
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:30.041
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:30.063
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:30.309
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:30.817
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:31.535
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:31.579
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:31.620
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:31.823
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:32.665
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:32.695
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:32.714
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:32.726
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:33.901
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:33.957
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:34.084
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:56:34.154
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:12.457
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:12.466
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:12.476
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:12.487
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:25.305
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:25.316
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:25.325
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 16:57:25.337
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 17:00:25.656
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 17:00:25.668
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 17:00:25.681
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 17:00:25.693
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 17:00:26.326
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aXXWFdyP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 17:00:26.379
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aXXWFdyP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 17:00:26.394
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-30 17:00:26.423
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aXXWFdyP => OK
+!SESSION 2021-08-30 17:50:20.913 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-30 17:50:39.128
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-30 17:50:39.128
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@237aba92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65b19e5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-30 17:50:59.132
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\2039224'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-30 17:51:11.811
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 17:51:11.825
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 17:51:11.843
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-30 17:51:11.858
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-30 17:51:19.394
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-30 17:51:19.437
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-30 17:51:19.468
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-30 18:09:40.709
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-08-31 07:03:03.157 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-31 07:03:34.829
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-31 07:03:34.829
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a18e0f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@687f62a5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-31 07:03:41.020
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\2039224'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-31 07:04:02.577
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:02.595
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:02.610
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:02.633
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:13.693
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:13.713
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:13.731
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:04:13.790
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-31 07:05:59.422
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:05:59.466
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:05:59.489
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-31 07:05:59.509
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-31 07:06:24.062
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:06:24.086
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:06:24.128
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-31 07:06:24.172
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:00.604
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:00.621
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@262cce28[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:00.646
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:00.919
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-08-31 07:37:01.686
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-31 07:37:01.686
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@615524a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a75a52a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.521
+!MESSAGE Boot LS startup time from start to initialized: 4841ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.711
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PaFMpugqisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.729
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.744
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.755
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.765
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.777
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PaFMpugq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:05.995
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.053
+!MESSAGE buffering callback sts4.classpath.PaFMpugq ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.065
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.148
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.180
+!MESSAGE buffering callback sts4.classpath.PaFMpugq Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.191
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.266
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.299
+!MESSAGE buffering callback sts4.classpath.PaFMpugq booking-service false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.313
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.345
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.388
+!MESSAGE buffering callback sts4.classpath.PaFMpugq flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:06.406
+!MESSAGE executing callback sts4.classpath.PaFMpugq 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 07:37:08.072
+!MESSAGE executing callback sts4.classpath.PaFMpugq SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-31 07:37:11.455
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-31 07:37:11.532
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-31 07:37:11.557
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-31 07:37:11.643
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-31 07:37:46.057
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-31 22:27:32.999
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-08-31 22:27:33.021
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY Activator 1 0 2021-08-31 22:27:33.038
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-08-31 22:27:33.086
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 22:27:34.608
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PaFMpugq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 22:27:34.623
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PaFMpugq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 22:27:34.642
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-31 22:27:34.656
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PaFMpugq => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-31 22:27:38.052
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-09-01 08:09:19.026 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-09-01 08:09:39.776
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-01 08:09:39.776
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@486dd616,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a1d926b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:20.260
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:20.276
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1ddb7a9e[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:20.315
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:21.526
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-09-01 08:10:26.542
+!MESSAGE Has main method computation for project 'Eureka'
+
+!ENTRY Activator 1 0 2021-09-01 08:10:26.589
+!MESSAGE Has main method computation for project 'flights-service'
+
+!ENTRY Activator 1 0 2021-09-01 08:10:26.795
+!MESSAGE Has main method computation for project 'booking-service'
+
+!ENTRY Activator 1 0 2021-09-01 08:10:26.823
+!MESSAGE Has main method computation for project 'ZuulGateway'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-01 08:10:26.848
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\2039224'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:32.768
+!MESSAGE Boot LS startup time from start to initialized: 12410ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.130
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SDUgVGPkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.221
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.276
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.296
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.316
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.332
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SDUgVGPk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.630
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.677
+!MESSAGE buffering callback sts4.classpath.SDUgVGPk flights-service false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.696
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.772
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.837
+!MESSAGE buffering callback sts4.classpath.SDUgVGPk Eureka false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:33.879
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:34.121
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:34.172
+!MESSAGE buffering callback sts4.classpath.SDUgVGPk ZuulGateway false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:34.293
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:34.361
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:34.714
+!MESSAGE buffering callback sts4.classpath.SDUgVGPk booking-service false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:34.780
+!MESSAGE executing callback sts4.classpath.SDUgVGPk 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 08:10:36.828
+!MESSAGE executing callback sts4.classpath.SDUgVGPk FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-01 08:10:36.842
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 19:35:54.009
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SDUgVGPk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 19:35:54.026
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SDUgVGPk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 19:35:54.042
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-01 19:35:54.055
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SDUgVGPk => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-09-01 19:35:57.792
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

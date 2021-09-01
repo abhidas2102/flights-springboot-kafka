@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.cts.flights.beans.Flights"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaListener"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.producer.ProducerRecord"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.header.internals.RecordHeader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.header.Header"/>
+    <fullyQualifiedTypeName name="org.springframework.messaging.support.MessageBuilder"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.support.KafkaHeaders"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.json.JsonParser"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.core.JsonParser"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.util.json.JSONParser"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.util.JSONPObject"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+</qualifiedTypeNameHistroy>
