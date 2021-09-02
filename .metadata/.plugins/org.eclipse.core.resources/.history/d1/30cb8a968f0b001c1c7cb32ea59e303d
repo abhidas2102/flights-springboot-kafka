@@ -1,0 +1,5 @@
+package com.cts.flights.booking.services;
+
+public class BookingDetailsServiceTest {
+
+}

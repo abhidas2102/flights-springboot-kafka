@@ -1,0 +1,23 @@
+package com.cts.flights.services;
+
+import static org.junit.Assert.assertNotNull;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.cts.flights.beans.Flights;
+
+@SpringBootTest
+public class FlightsTest {
+	
+	@Autowired
+	FlightService flightService;
+	
+	@Test
+	public void searchFlightByFlightNumberTest() {
+		String flightNumber = "SJ1234";
+		Flights flights =  flightService.searchFlightByFlightNumber(flightNumber);
+		assertNotNull(flights);
+	}
+}

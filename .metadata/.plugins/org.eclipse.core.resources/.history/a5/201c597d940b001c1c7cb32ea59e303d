@@ -1,0 +1,24 @@
+package com.cts.flights.booking.services;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.cts.flights.booking.beans.BookingDetails;
+
+@SpringBootTest
+public class BookingDetailsServiceTest {
+
+	@Autowired
+	BookingDetailsService bookingDetailsService;
+	
+	@Test
+	public void bookingHistoryTest() {
+		List<BookingDetails> bD = bookingDetailsService.bookingHistory("demo");
+		assertNotNull(bD);
+	}
+}

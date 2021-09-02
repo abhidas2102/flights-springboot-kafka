@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FlightsTest" project="flights-service" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cts.flights.services.FlightsTest" time="0.842" displayname="FlightsTest" uniqueid="[engine:junit-jupiter]/[class:com.cts.flights.services.FlightsTest]">
+    <testcase name="searchFlightByFlightNumberTest" classname="com.cts.flights.services.FlightsTest" time="0.842" displayname="searchFlightByFlightNumberTest()" uniqueid="[engine:junit-jupiter]/[class:com.cts.flights.services.FlightsTest]/[method:searchFlightByFlightNumberTest()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,8 @@
+package com.cts.flights.booking.services;
+
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class BookingDetailsServiceTest {
+
+}

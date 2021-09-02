@@ -1,0 +1,23 @@
+package com.cts.flights.services;
+
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.cts.flights.beans.Flights;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class FlightsTest {
+	
+	@Autowired
+	FlightService flightService;
+	
+	@Test
+	public Flights searchFlightByFlightNumberTest() {
+		String flightNumber = "SJ1234";
+		return flightService.searchFlightByFlightNumber(flightNumber);
+	}
+}

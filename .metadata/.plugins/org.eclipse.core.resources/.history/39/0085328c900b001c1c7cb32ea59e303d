@@ -1,0 +1,37 @@
+package com.cts.flights.services;
+
+import static org.junit.Assert.assertNotNull;
+
+import java.time.LocalDate;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.cts.flights.angular.SearchFlightByFlightNumberForm;
+import com.cts.flights.beans.Flights;
+
+@SpringBootTest
+public class FlightsServiceTest {
+	
+	@Autowired
+	FlightService flightService;
+	
+	@Test
+	public void searchFlightByFlightNumberTest() {
+		String flightNumber = "SJ1234";
+		Flights flights =  flightService.searchFlightByFlightNumber(flightNumber);
+		assertNotNull(flights);
+	}
+	
+	@Test
+	public void searchFlightByFlightNumberFormTest() {
+		LocalDate date = LocalDate.now();
+		SearchFlightByFlightNumberForm searchFlightByFlightNumberForm = 
+				new SearchFlightByFlightNumberForm("SJ1234", date);
+		
+		Flights flights = flightService.searchFlightByFlightNumber(searchFlightByFlightNumberForm);
+		
+		assertNotNull(flights);
+	}
+}
